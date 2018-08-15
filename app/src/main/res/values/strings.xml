@@ -1,0 +1,307 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">LanguageApp</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+
+    <integer-array name="numbers_images">
+        <item>@drawable/number_0</item>
+        <item>@drawable/number_1</item>
+        <item>@drawable/number_2</item>
+        <item>@drawable/number_3</item>
+        <item>@drawable/number_4</item>
+        <item>@drawable/number_5</item>
+        <item>@drawable/number_6</item>
+        <item>@drawable/number_7</item>
+        <item>@drawable/number_8</item>
+        <item>@drawable/number_9</item>
+        <item>@drawable/number_10</item>
+        <item>@drawable/number_11</item>
+        <item>@drawable/number_12</item>
+        <item>@drawable/number_13</item>
+        <item>@drawable/number_14</item>
+        <item>@drawable/number_15</item>
+        <item>@drawable/number_16</item>
+        <item>@drawable/number_17</item>
+        <item>@drawable/number_18</item>
+        <item>@drawable/number_19</item>
+        <item>@drawable/number_20</item>
+        <item>@drawable/number_30</item>
+        <item>@drawable/number_40</item>
+        <item>@drawable/number_50</item>
+        <item>@drawable/number_60</item>
+        <item>@drawable/number_70</item>
+        <item>@drawable/number_80</item>
+        <item>@drawable/number_90</item>
+        <item>@drawable/number_100</item>
+    </integer-array>
+
+    <array name="english_numbers_words">
+        <item>Zero</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Eleven</item>
+        <item>Twelve</item>
+        <item>Thirteen</item>
+        <item>Fourteen</item>
+        <item>Fifteen</item>
+        <item>Sixteen</item>
+        <item>Seventeen</item>
+        <item>Eighteen</item>
+        <item>Nineteen</item>
+        <item>Twenty</item>
+        <item>Thirty</item>
+        <item>Forty</item>
+        <item>fifty</item>
+        <item>Sixty</item>
+        <item>Seventy</item>
+        <item>Eighty</item>
+        <item>Ninety</item>
+        <item>Hundred</item>
+    </array>
+
+    <array name="arabic_numbers_words">
+        <item>صفر</item>
+        <item>واحد</item>
+        <item>اثنان</item>
+        <item>ثلاثة</item>
+        <item>أربعة</item>
+        <item>خمسة</item>
+        <item>ستة</item>
+        <item>سبعة</item>
+        <item>ثمانية</item>
+        <item>تسعة</item>
+        <item>عشرة</item>
+        <item>أحد عشر</item>
+        <item>اثني عشر</item>
+        <item>ثلاثة عشر</item>
+        <item>أربعة عشر</item>
+        <item>خمسة عشر</item>
+        <item>سادس عشر</item>
+        <item>سبعة عشر</item>
+        <item>ثمانية عشر</item>
+        <item>تسعة عشر</item>
+        <item>عشرون</item>
+        <item>ثلاثون</item>
+        <item>أربعون</item>
+        <item>خمسون</item>
+        <item>ستون</item>
+        <item>سبعون</item>
+        <item>ثمانون</item>
+        <item>تسعون</item>
+        <item>مائة</item>
+    </array>
+
+    <integer-array name="colors_images">
+        <item>@drawable/colors_red_circle</item>
+        <item>@drawable/colors_green_circle</item>
+        <item>@drawable/colors_blue_circle</item>
+        <item>@drawable/colors_yellow_circle</item>
+        <item>@drawable/colors_black_circle</item>
+        <item>@drawable/colors_white_circle</item>
+        <item>@drawable/colors_orange_circle</item>
+        <item>@drawable/colors_brown_circle</item>
+        <item>@drawable/colors_gray_circle</item>
+        <item>@drawable/colors_violet_circle</item>
+        <item>@drawable/colors_purple_circle</item>
+        <item>@drawable/colors_pink_circle</item>
+    </integer-array>
+
+    <array name="english_colors_words">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Orange</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>Violet</item>
+        <item>Purple</item>
+        <item>Pink</item>
+    </array>
+    <array name="arabic_colors_words">
+        <item>أحمر</item>
+        <item>أخضر</item>
+        <item>أزرق</item>
+        <item>أصفر</item>
+        <item>أسود</item>
+        <item>أبيض</item>
+        <item>برتقالي</item>
+        <item>بني</item>
+        <item>رمادي</item>
+        <item>البنفسجي</item>
+        <item>أرجواني</item>
+        <item>زهري</item>
+    </array>
+
+    <integer-array name="family_images">
+        <item>@drawable/family_grandparent</item>
+        <item>@drawable/family_grandfather</item>
+        <item>@drawable/family_grandmother</item>
+        <item>@drawable/family_husband</item>
+        <item>@drawable/family_wife</item>
+        <item>@drawable/family_parent</item>
+        <item>@drawable/family_father</item>
+        <item>@drawable/family_mother</item>
+        <item>@drawable/family_children</item>
+        <item>@drawable/family_son</item>
+        <item>@drawable/family_daughter</item>
+        <item>@drawable/family_sister</item>
+        <item>@drawable/family_brother</item>
+        <item>@drawable/family_grandson</item>
+        <item>@drawable/family_granddaughter</item>
+        <item>@drawable/family_uncle</item>
+        <item>@drawable/family_aunt</item>
+        <item>@drawable/family_niece</item>
+        <item>@drawable/family_nephew</item>
+        <item>@drawable/family_cousin</item>
+        <item>@drawable/family_father_in_law</item>
+        <item>@drawable/family_mother_in_law</item>
+        <item>@drawable/family_brother_in_law</item>
+        <item>@drawable/family_sister_in_law</item>
+    </integer-array>
+
+    <array name="english_family_words">
+        <item>Grandparent</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Husband</item>
+        <item>Wife</item>
+        <item>Parent</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Children</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Grandson</item>
+        <item>Granddaughter</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Niece</item>
+        <item>Nephew</item>
+        <item>Cousin</item>
+        <item>Father in law</item>
+        <item>Mother in law</item>
+        <item>Brother in law</item>
+        <item>Sister in law</item>
+    </array>
+
+    <array name="arabic_family_words">
+        <item>زوج</item>
+        <item>زوجة</item>
+        <item>الجدين</item>
+        <item>جد</item>
+        <item>جدة</item>
+        <item>الأبوين</item>
+        <item>الأب</item>
+        <item>الأم</item>
+        <item>الأطفال</item>
+        <item>ابن</item>
+        <item>ابنة</item>
+        <item>أخت</item>
+        <item>أخي</item>
+        <item>حفيد</item>
+        <item>حفيدة</item>
+        <item>عم</item>
+        <item>عمة</item>
+        <item>أبنة الأخ أو الأخت</item>
+        <item>إبن الأخ أو الأ خت</item>
+        <item>إبن العم أو الخال</item>
+        <item>أبو الزوجة أو الزوج</item>
+        <item>حماة أم الزوج أو أم الزوجة</item>
+        <item>أخ الزوج أو اخ الزوجة</item>
+        <item>أخت الزوج أو اخت الزوجة</item>
+    </array>
+
+    <array name="english_phrases">
+        <item>I’m learning English</item>
+        <item>How are you ?</item>
+        <item>Good morning</item>
+        <item>Good evening</item>
+        <item>What do you think ?</item>
+        <item>Thanks so much</item>
+        <item>Excuse me</item>
+        <item>I’m sorry</item>
+        <item>I don’t understand</item>
+        <item>Could you please talk slower ?</item>
+        <item>Thank you. That helps a lot</item>
+        <item>What do you mean ?</item>
+        <item>Nice to meet you</item>
+        <item>Where are you from ?</item>
+        <item>What do you do ?</item>
+        <item>What do you like to do ?</item>
+        <item>What’s your phone number ?</item>
+        <item>How can I help you ?</item>
+        <item>I’ll be with you in a moment</item>
+        <item>Are you having a good day ?</item>
+        <item>Did you just get to the office ?</item>
+        <item>Good luck</item>
+        <item>You look great today</item>
+        <item>You’re a fantastic cook</item>
+        <item>You can do it</item>
+        <item>Don’t give up</item>
+        <item>I’m so proud of you</item>
+        <item>You did a good job on the project</item>
+        <item>Congratulations</item>
+        <item>I’m so happy for you</item>
+        <item>Good job</item>
+        <item>Good luck with your new job</item>
+    </array>
+
+    <array name="arabic_phrases">
+        <item>انا اتعلم الانجليزية</item>
+        <item>كيف حالك ؟</item>
+        <item>صباح الخير</item>
+        <item>مساء الخير</item>
+        <item>ما رأيك ؟</item>
+        <item>شكرا جزيلا</item>
+        <item>عفوا</item>
+        <item>أنا آسف</item>
+        <item>أنا لا أفهم</item>
+        <item>هل يمكن أن تحدث من فضلك أبطأ ؟</item>
+        <item>شكرا لكم. هذا يساعد كثيرا</item>
+        <item>ماذا تعني ؟</item>
+        <item>تشرفت بمقابلتك</item>
+        <item>من أي بلد أنت ؟</item>
+        <item>ماذا تعمل ؟</item>
+        <item>ماذا تحب ان تفعل ؟</item>
+        <item>ما هو رقم هاتفك ؟</item>
+        <item>كيف بإمكاني مساعدتك ؟</item>
+        <item>سأكون معك في لحظة</item>
+        <item>هل تحظى بيوم جيد ؟</item>
+        <item>هل وصلت للتو إلى المكتب ؟</item>
+        <item>حظا طيبا</item>
+        <item>أنت تبدو رائعا اليوم</item>
+        <item>أنت طباخ رائع</item>
+        <item>يمكنك أن تفعل ذلك</item>
+        <item>لا تستسلم</item>
+        <item>أنا فخور جدا بك</item>
+        <item>لقد قمت بعمل جيد في المشروع</item>
+        <item>تهانينا</item>
+        <item>انا سعيد جدا لك</item>
+        <item>عمل جيد</item>
+        <item>حظا طيبا في وظيفتك الجديدة</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
